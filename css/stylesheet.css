@@ -1,0 +1,28 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Raleway";
+  font-weight: 400; }
+
+.content {
+  width: 84%;
+  margin: auto; }
+
+header {
+  height: 70%;
+  background-image: url("../images/surfer.png");
+  background-size: cover;
+  background-position: 50% 50%; }
+  header #head-left {
+    display: inline-block;
+    width: 15%;
+    height: 90%;
+    margin-right: 5%;
+    background-color: red; }
+  header #head-right {
+    display: inline-block;
+    width: 78%;
+    height: 90%;
+    background-color: blue; }
+
+/*# sourceMappingURL=stylesheet.css.map */

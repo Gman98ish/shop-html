@@ -1,0 +1,21 @@
+header {
+    height: 70%;
+    background-image: url("../images/surfer.png");
+    background-size: cover;
+    background-position: 50% 50%;
+
+    #head-left {
+        display: inline-block;
+        width: 15%;
+        height: 90%;
+        margin-right: 5%;
+        background-color: red;
+    }
+
+    #head-right {
+        display: inline-block;
+        width: 78%;
+        height: 90%;
+        background-color: blue;
+    }
+}
