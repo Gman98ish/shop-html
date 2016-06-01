@@ -143,6 +143,9 @@ header {
 
     #head-mobile {
         display: unset;
+    }
+
+    #head-mobile .container {
 
         #ham-logo {
             padding-top: 20px;
@@ -189,6 +192,38 @@ header {
             }
         }
 
+        #yellow-box {
+            background-color: #fff51f;
+            min-width: 270px;
+            min-height: 109px;
+            width: 100%;
+            color: #333333;
+            font-size: 20pt;
+            font-weight: 700;
+            margin-top: 40pt;
+            @include box-sizing(border-box);
+            padding: 20px;
+        }
+
+        #blue-box {
+            background-color: #26d2fc;
+            margin-top: 10pt;
+            height: 180pt;
+            padding: 10px;
+            @include box-sizing(border-box);
+
+            ul {
+                list-style: none;
+                width: 90%;
+                margin: auto;
+                li * {
+                    font-weight: 700;
+                }
+                li .plus {
+                    float: right;
+                }
+            }
+        }
     }
 
     #head-left, #head-right {
