@@ -21,6 +21,7 @@ header {
     display: inline-block;
     width: 20%;
     height: 90%;
+    min-width: 230px;
     margin-right: 5%; }
     header #head-left #logo {
       width: 100%;
@@ -30,8 +31,8 @@ header {
       header #head-left #cart .top-button {
         background-color: white;
         color: red;
-        padding: 3px;
-        width: 47.35%;
+        padding-top: 3px;
+        width: 50%;
         display: inline-block;
         font-size: 10pt;
         text-align: center; }
