@@ -62,14 +62,46 @@ header {
                 }
 
                 #x {
-
+                    position: absolute;
+                    left: 190px;
+                    top: 10px;
+                    color: #faef03;
+                    font-size: 20pt;
                 }
 
                 #edit {
-
+                    position: absolute;
+                    left: 185px;
+                    top: 40px;
+                    font-size: 10pt;
+                    color: #333333;
                 }
             }
 
+            #search-box * {
+                display: inline-block;
+            }
+
+            #search-box {
+                white-space: nowrap;
+                input {
+                    background-color: white;
+                    border: none;
+                    width: 83%;
+                    height: 23pt;
+                    display: inline-block;
+                }
+
+                div {
+                    width: 17%;
+                    height: 23pt;
+                    background-color: #333333;
+                    img {
+                        height: 750%;
+                        width: auto;
+                    }
+                }
+            }
         }
 
     }

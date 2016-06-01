@@ -56,6 +56,35 @@ header {
           left: 70px;
           font-size: 10pt;
           color: #faef03; }
+        header #head-left #cart #items #x {
+          position: absolute;
+          left: 190px;
+          top: 10px;
+          color: #faef03;
+          font-size: 20pt; }
+        header #head-left #cart #items #edit {
+          position: absolute;
+          left: 185px;
+          top: 40px;
+          font-size: 10pt;
+          color: #333333; }
+      header #head-left #cart #search-box * {
+        display: inline-block; }
+      header #head-left #cart #search-box {
+        white-space: nowrap; }
+        header #head-left #cart #search-box input {
+          background-color: white;
+          border: none;
+          width: 83%;
+          height: 23pt;
+          display: inline-block; }
+        header #head-left #cart #search-box div {
+          width: 17%;
+          height: 23pt;
+          background-color: #333333; }
+          header #head-left #cart #search-box div img {
+            height: 750%;
+            width: auto; }
   header #head-right {
     display: inline-block;
     width: 74%;
