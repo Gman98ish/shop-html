@@ -2,8 +2,12 @@ header * {
     vertical-align: top;
 }
 
+#head-mobile {
+    display: none;
+}
+
 header {
-    height: 70%;
+    height: 100vh;
     background-image: url("../images/surfer.png");
     background-size: cover;
     background-position: 50% 50%;
@@ -14,7 +18,9 @@ header {
         width: 20%;
         height: 90%;
         min-width: 230px;
+        max-width: 230px;
         margin-right: 5%;
+        margin-bottom: 50px;
 
         #logo {
             width: 100%;
@@ -23,7 +29,6 @@ header {
 
         #cart {
             margin-top: 40px;
-
             .top-button {
                 background-color: white;
                 color: red;
@@ -132,4 +137,61 @@ header {
         background-color: blue;
     }
 
+}
+
+@media screen and (max-width:768px) {
+
+    #head-mobile {
+        display: unset;
+
+        #ham-logo {
+            padding-top: 20px;
+            margin: auto;
+
+            #hamburger {
+                display: inline-block;
+            }
+
+            #mobile-logo {
+                display: inline-block;
+                margin-top: -11pt;
+                margin-left: 15pt;
+            }
+        }
+
+        #buttons {
+            padding-top: 10pt;
+            float: right;
+
+            .h-button {
+                position: relative;
+                display: inline-block;
+                height: 25.5pt;
+                width: 25.5pt;
+            }
+
+            #search {
+                @extend .h-button;
+                background-color: #333333;
+            }
+
+            #cart {
+                @extend .h-button;
+                background-color: #ee4a02;
+            }
+
+            #cart img, #search img {
+                position: absolute;
+                height: 50%;
+                width: auto;
+                top: 25%;
+                left: 20%;
+            }
+        }
+
+    }
+
+    #head-left, #head-right {
+        display: none !important;
+    } 
 }
