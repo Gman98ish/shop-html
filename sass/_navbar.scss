@@ -32,6 +32,8 @@ header {
                 display: inline-block;
                 font-size: 10pt;
                 text-align: center;
+                padding-top: 5pt;
+                padding-bottom: 5pt;
             }
 
             #items {
@@ -78,6 +80,17 @@ header {
                 }
             }
 
+            .bottom-button {
+                @extend .top-button;
+                background-color: #ee4a02;
+                color: white;
+                font-size: 9pt;
+            }
+
+            #second {
+                background-color: #e24602;
+            }
+
             #search-box * {
                 display: inline-block;
             }
@@ -85,20 +98,26 @@ header {
             #search-box {
                 white-space: nowrap;
                 input {
-                    background-color: white;
+                    background-color: #e9e9e9;
                     border: none;
                     width: 83%;
                     height: 23pt;
                     display: inline-block;
+                    padding: 8px;
+                    color: black;
                 }
 
                 div {
+                    position: relative;
                     width: 17%;
                     height: 23pt;
                     background-color: #333333;
                     img {
-                        height: 750%;
+                        position: absolute;
+                        height: 50%;
                         width: auto;
+                        top: 25%;
+                        left: 30%;
                     }
                 }
             }

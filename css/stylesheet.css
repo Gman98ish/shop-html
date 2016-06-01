@@ -28,14 +28,16 @@ header {
       min-height: 50px; }
     header #head-left #cart {
       margin-top: 40px; }
-      header #head-left #cart .top-button {
+      header #head-left #cart .top-button, header #head-left #cart .bottom-button {
         background-color: white;
         color: red;
         padding-top: 3px;
         width: 50%;
         display: inline-block;
         font-size: 10pt;
-        text-align: center; }
+        text-align: center;
+        padding-top: 5pt;
+        padding-bottom: 5pt; }
       header #head-left #cart #items {
         height: 75px;
         background-color: #fb4d01;
@@ -68,23 +70,35 @@ header {
           top: 40px;
           font-size: 10pt;
           color: #333333; }
+      header #head-left #cart .bottom-button {
+        background-color: #ee4a02;
+        color: white;
+        font-size: 9pt; }
+      header #head-left #cart #second {
+        background-color: #e24602; }
       header #head-left #cart #search-box * {
         display: inline-block; }
       header #head-left #cart #search-box {
         white-space: nowrap; }
         header #head-left #cart #search-box input {
-          background-color: white;
+          background-color: #e9e9e9;
           border: none;
           width: 83%;
           height: 23pt;
-          display: inline-block; }
+          display: inline-block;
+          padding: 8px;
+          color: black; }
         header #head-left #cart #search-box div {
+          position: relative;
           width: 17%;
           height: 23pt;
           background-color: #333333; }
           header #head-left #cart #search-box div img {
-            height: 750%;
-            width: auto; }
+            position: absolute;
+            height: 50%;
+            width: auto;
+            top: 25%;
+            left: 30%; }
   header #head-right {
     display: inline-block;
     width: 74%;
