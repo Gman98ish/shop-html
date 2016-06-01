@@ -1,21 +1,83 @@
+header * {
+    vertical-align: top;
+}
+
 header {
     height: 70%;
     background-image: url("../images/surfer.png");
     background-size: cover;
     background-position: 50% 50%;
+    padding-top: 20px;
 
     #head-left {
         display: inline-block;
-        width: 15%;
+        width: 20%;
         height: 90%;
         margin-right: 5%;
-        background-color: red;
+
+        #logo {
+            width: 100%;
+            min-height: 50px;
+        }
+
+        #cart {
+            margin-top: 40px;
+
+            .top-button {
+                background-color: white;
+                color: red;
+                padding: 3px;
+                width: 47.35%;
+                display: inline-block;
+                font-size: 10pt;
+                text-align: center;
+            }
+
+            #items {
+                height: 75px;
+                background-color: #fb4d01;
+                position: relative;
+
+                img {
+                    position: absolute;
+                    top: 13px;
+                    left: 20px;
+                }
+
+                #price {
+                    position: absolute;
+                    top: 8px;
+                    left: 70px;
+                    font-size: 20pt;
+                    color: white;
+                }
+
+                #quantity {
+                    position: absolute;
+                    top: 36px;
+                    left: 70px;
+                    font-size: 10pt;
+                    color: #faef03;
+                }
+
+                #x {
+
+                }
+
+                #edit {
+
+                }
+            }
+
+        }
+
     }
 
     #head-right {
         display: inline-block;
-        width: 78%;
+        width: 74%;
         height: 90%;
         background-color: blue;
     }
+
 }

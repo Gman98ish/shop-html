@@ -8,20 +8,56 @@
   width: 84%;
   margin: auto; }
 
+header * {
+  vertical-align: top; }
+
 header {
   height: 70%;
   background-image: url("../images/surfer.png");
   background-size: cover;
-  background-position: 50% 50%; }
+  background-position: 50% 50%;
+  padding-top: 20px; }
   header #head-left {
     display: inline-block;
-    width: 15%;
+    width: 20%;
     height: 90%;
-    margin-right: 5%;
-    background-color: red; }
+    margin-right: 5%; }
+    header #head-left #logo {
+      width: 100%;
+      min-height: 50px; }
+    header #head-left #cart {
+      margin-top: 40px; }
+      header #head-left #cart .top-button {
+        background-color: white;
+        color: red;
+        padding: 3px;
+        width: 47.35%;
+        display: inline-block;
+        font-size: 10pt;
+        text-align: center; }
+      header #head-left #cart #items {
+        height: 75px;
+        background-color: #fb4d01;
+        position: relative; }
+        header #head-left #cart #items img {
+          position: absolute;
+          top: 13px;
+          left: 20px; }
+        header #head-left #cart #items #price {
+          position: absolute;
+          top: 8px;
+          left: 70px;
+          font-size: 20pt;
+          color: white; }
+        header #head-left #cart #items #quantity {
+          position: absolute;
+          top: 36px;
+          left: 70px;
+          font-size: 10pt;
+          color: #faef03; }
   header #head-right {
     display: inline-block;
-    width: 78%;
+    width: 74%;
     height: 90%;
     background-color: blue; }
 
