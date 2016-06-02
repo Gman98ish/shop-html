@@ -1,14 +1,15 @@
 .items {
     display: inline-block;
     vertical-align: top;
+    text-align: center;
 }
 
 .item {
     display: inline-block;
     margin: auto;
     width: 100%;
-    min-width: 268px;
-    height: 202.5pt;
+    max-width: 268px;
+    height: 210.5pt;
     background-color: white;
     position: relative;
     @include box-sizing(border-box);
