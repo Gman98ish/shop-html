@@ -30,6 +30,7 @@ header {
     background-size: cover;
     background-position: 50% 50%;
     padding-top: 20px;
+    margin-bottom: 15pt !important;
 
     #head-left {
         display: inline-block;
@@ -126,7 +127,6 @@ header {
                     width: 83%;
                     height: 23pt;
                     display: inline-block;
-                    padding: 8px;
                     color: black;
                 }
 
@@ -154,6 +154,12 @@ header {
         height: 90%;
     }
 
+}
+
+#desktop-box {
+    margin-top: 15pt;
+    padding-bottom: 40pt;
+    padding-top: 40pt;
 }
 
 @media screen and (max-width:768px) {

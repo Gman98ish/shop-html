@@ -1,8 +1,14 @@
+.items {
+    display: inline-block;
+    vertical-align: top;
+}
+
 .item {
     display: inline-block;
     margin: auto;
     width: 100%;
     max-width: 268px;
+    height: 202.5pt;
     background-color: white;
     position: relative;
     @include box-sizing(border-box);
@@ -46,3 +52,16 @@
     }
 
 }
+
+@media screen and (max-width:768px) {
+    .items {
+        margin-top: 50pt !important;
+    }
+}
+
+@media screen and (min-width:769px) {
+    .item {
+        margin-left: 22pt;
+    }
+}
+
