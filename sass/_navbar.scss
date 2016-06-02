@@ -152,6 +152,27 @@ header {
         display: inline-block;
         width: 73%;
         height: 90%;
+        position: relative;
+
+        #lines {
+            position: absolute;
+            width: 180pt;
+            bottom: 20pt;
+            height: 8pt;
+            left: 18%;
+            display: inline-block;
+
+            .line {
+                width: 40pt;
+                background-color: #faef03;
+                height: 4pt;
+                display: inline-block;
+            }
+
+            .orange {
+                background-color: #fb4d01;
+            }
+        }
     }
 
 }
