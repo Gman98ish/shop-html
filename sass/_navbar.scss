@@ -150,7 +150,7 @@ header {
 
     #head-right {
         display: inline-block;
-        width: 73%;
+        width: 60%;
         height: 90%;
         position: relative;
 
@@ -173,8 +173,60 @@ header {
                 background-color: #fb4d01;
             }
         }
-    }
 
+        #social-icons {
+            position: absolute;
+            top: 0;
+            right: 90pt;
+
+            img {
+                width: 12pt;
+                height: 12pt;
+                display: inline-block;
+                margin-right: 8pt;
+            }
+        }
+
+        #side-box {
+            width: 225pt;
+            position: absolute;
+            right: 50pt;
+            top: 120pt;
+            
+            h1 {
+                color: #fff51f;
+                font-weight: 700;
+            }
+
+            p {
+                color: #fff51f;
+            }
+        }
+
+        .arrow {
+            width: 22.5pt;
+            height: 37.5pt;
+            text-align: center;
+            vertical-align: middle;
+            padding-top: 11pt;
+            position: absolute;
+            @include box-sizing(border-box);
+        }
+
+        #arrow-one {
+            @extend .arrow;
+            top: 140pt;
+            right: 15pt;
+            background-color: white;
+        }
+
+        #arrow-two {
+            @extend .arrow;
+            top: 140pt;
+            right: -9pt;
+            background-color: yellow;
+        }
+    }
 }
 
 #desktop-box {
