@@ -6,6 +6,24 @@ header * {
     display: none;
 }
 
+.yellow-box {
+    background-color: #fff51f;
+    width: 100%;
+    color: #333333;
+    font-size: 20pt;
+    font-weight: 700;
+    margin-top: 40pt;
+    @include box-sizing(border-box);
+    padding: 20px;
+
+    h1 {
+        font-size: 20pt;
+    }
+    p {
+        font-size: 12pt;
+    }
+}
+
 header {
     height: 100vh;
     background-image: url("../images/surfer.png");
@@ -132,9 +150,8 @@ header {
 
     #head-right {
         display: inline-block;
-        width: 74%;
+        width: 73%;
         height: 90%;
-        background-color: blue;
     }
 
 }
@@ -194,19 +211,6 @@ header {
                 top: 25%;
                 left: 20%;
             }
-        }
-
-        #yellow-box {
-            background-color: #fff51f;
-            min-width: 270px;
-            min-height: 109px;
-            width: 100%;
-            color: #333333;
-            font-size: 20pt;
-            font-weight: 700;
-            margin-top: 40pt;
-            @include box-sizing(border-box);
-            padding: 20px;
         }
 
         #blue-box {
