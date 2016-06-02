@@ -1,0 +1,16 @@
+#instagram-feed {
+    width: 100%;
+    padding: 15pt;
+    margin-top: 40pt;
+    .insta-pic {
+        display: inline-block;
+        width: 100.5pt;
+        height: 100.5pt;
+        padding: 3pt;
+
+        img {
+            height: 97.5pt;
+            width: 97.5pt;
+        }
+    }
+}

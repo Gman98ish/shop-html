@@ -17,6 +17,7 @@ header * {
     padding: 20px;
 
     h1 {
+        font-weight: 700;
         font-size: 20pt;
     }
     p {
@@ -73,9 +74,9 @@ header {
 
                 #price {
                     position: absolute;
-                    top: 8px;
+                    top: 9px;
                     left: 70px;
-                    font-size: 20pt;
+                    font-size: 15pt;
                     color: white;
                 }
 
@@ -128,6 +129,9 @@ header {
                     height: 23pt;
                     display: inline-block;
                     color: black;
+                    @include box-sizing(border-box);
+                    padding: 8pt;
+                    font-size: 7pt;
                 }
 
                 div {
