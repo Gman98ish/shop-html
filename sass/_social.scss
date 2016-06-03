@@ -1,16 +1,77 @@
 #instagram-feed {
     width: 100%;
-    padding: 15pt;
-    margin-top: 40pt;
+    background-color: #eaeaea;
+    margin-top: 30pt;
+    padding: 10pt;
+
+    #insta-title {
+        position: relative;
+        width: 30%;
+        margin: auto;
+        margin-bottom: 20pt;
+        margin-top: 25pt;
+
+        img {
+            float: left;
+            margin-right: 5pt;
+        }
+
+        #insta-bold {
+            padding-top: 3pt;
+            @include box-sizing(border-box);
+            font-family: Roboto;
+            font-weight: 900;
+            font-style: italic;
+            font-size: 12pt;
+            color: #333;
+            #insta-hashtag {
+                @extend #insta-bold;
+                font-size: 10pt;
+            }
+        }
+
+
+    }
+
     .insta-pic {
         display: inline-block;
-        width: 100.5pt;
-        height: 100.5pt;
+        width: 141pt;
+        height: 141pt;
         padding: 3pt;
 
         img {
-            height: 97.5pt;
-            width: 97.5pt;
+            height: 138pt;
+            width: 138pt;
         }
     }
+}
+
+#social-media {
+    width: 100%;
+    margin: -10pt;
+    margin-top: 30pt;
+
+    .media-box {
+        width: 33.3%;
+        @include box-sizing(border-box);
+        text-align: center;
+        display: inline-block;
+        height: 112.5pt;
+        padding-top: 35pt;
+        img {
+            vertical-align: top;
+        }
+    }
+}
+
+#fb {
+    background-color: #3b5997;
+}
+
+#tw {
+    background-color: #3fccfd;
+}
+
+#pin {
+    background-color: #cb2027;
 }
