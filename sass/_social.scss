@@ -75,3 +75,51 @@
 #pin {
     background-color: #cb2027;
 }
+
+@media screen and (max-width:768px) {
+
+    #instagram-feed {
+        width: 100%;
+        margin: auto;
+        @include box-sizing(border-box);
+        text-align: center;
+
+        #insta-title {
+            width: 94%;
+            margin: auto;
+            margin-bottom: 15pt;
+
+            img {
+                margin-right: 0pt;
+            }
+        }
+
+        .insta-pic {
+            display: inline-block;
+            width: 30%;
+            height: auto;
+            padding: 1pt;
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+    }
+
+    #social-media {
+
+        .media-box {
+            display: block;
+            width: 109%;
+            height: 30pt;
+            padding-top: 7pt;
+        }
+
+
+        img {
+            height: 17pt;
+            width: auto;
+        }
+    }
+}
