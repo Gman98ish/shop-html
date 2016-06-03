@@ -3,6 +3,17 @@
     vertical-align: top;
     width: calc(100% - 170pt);
     float: right;
+
+    h2 {
+        font-family: Roboto;
+        color:
+        #717171;
+        font-size: 18pt;/* Approximation due to font substitution */
+        font-weight: 900;
+        font-style: italic;
+        margin-left: 22pt;
+        margin-top: 18pt;
+    }
 }
 
 .item {
@@ -11,11 +22,12 @@
     width: 100%;
     min-width: 268px;
     max-width: 268px;
-    height: 210.5pt;
+    height: 240pt;
     background-color: white;
     position: relative;
     @include box-sizing(border-box);
     padding: 20px;
+    padding-top: 12px;
 
     .new {
         position: absolute;
@@ -47,16 +59,26 @@
         @include box-sizing(border-box);
         width: 100%;
         padding: 5pt;
+        margin-top: 15pt;
+        position: relative;
         .item-name {
             font-family: Roboto;
             color: #333333;
             font-size: 11pt;/* Approximation due to font substitution */
             font-weight: 900;
             font-style: italic;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 61%;
         }
 
         .item-price {
             float: right;
+            font-weight: 700;
+            font-size: 10pt;
+            font-family: Roboto;
+
             p {
                 font-weight: 700;
                 font-size: 10pt;
@@ -66,7 +88,7 @@
             .reduced {
                 font-family: Roboto;
                 color: rgba(254, 0, 0, 0.6);
-                font-size: 10pt;/* Approximation due to font substitution */
+                font-size: 10pt;
                 font-weight: 900;
                 font-style: italic;
                 text-decoration: line-through;
