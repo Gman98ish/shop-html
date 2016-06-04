@@ -19,6 +19,11 @@
     width: 89%;
 }
 
+.spacer {
+    height: 40pt;
+    width: 1pt;
+}
+
 @import "colours";
 @import "mixins";
 @import "navbar";
@@ -26,3 +31,4 @@
 @import "menu";
 @import "social";
 @import "footer";
+@import "categories";

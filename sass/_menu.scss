@@ -9,12 +9,19 @@
         margin-top: 20pt;
     }
 
+    .light {
+        margin-top: 20pt;
+        li {
+            background-color: #9eeafd;
+        }
+    }
+
     ul {
         width: 100%;
         list-style: none;
 
         .head {
-            background-color: #333333;
+            background-color: #333333 !important;
             padding: 20px;
             padding-left: 36px;
             color: white;

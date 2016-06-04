@@ -1,0 +1,24 @@
+#main-image {
+    width: 80%;
+    margin: auto;
+    margin-left: 5%;
+}
+
+#main-text {
+    color: #333333;
+}
+
+
+@media screen and (max-width:768px) {
+    .other-header {
+        height: 100vh;
+    }
+
+    .alternate-box {
+        margin-top: 40pt !important;
+    }
+
+    #main-image {
+        display: none;
+    }
+}

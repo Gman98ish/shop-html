@@ -25,6 +25,13 @@ header * {
     }
 }
 
+.other-header {
+    height: 50vh;
+    background-image: url("../images/alternate.png");
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
 header {
     height: 100vh;
     background-image: url("../images/surfer.png");
@@ -90,10 +97,10 @@ header {
 
                 #x {
                     position: absolute;
-                    left: 190px;
-                    top: 10px;
+                    left: 195px;
+                    top: 14px;
                     color: #faef03;
-                    font-size: 20pt;
+                    font-size: 15pt;
                 }
 
                 #edit {
