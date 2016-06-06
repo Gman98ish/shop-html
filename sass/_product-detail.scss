@@ -1,4 +1,39 @@
 #detailed-product {
     width: 100%;
     position: relative;
+    margin-left: 20pt;
+
+    #product-pictures {
+        float: left;
+        width: 40%;
+        margin-right: 5%;
+
+        #main-picture {
+            width: 100%;
+            height: auto;
+            border: 1px solid #EAEAEA;
+        }
+
+        #slide-show * {
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 15pt;
+        }
+
+        #slide-show {
+            width: 100%;
+            margin-top: 20pt;
+            .product-picture {
+                background-color: #eaeaea;
+
+            }
+        }
+
+    }
+
+    #product-information {
+        float: right;
+        width: 55%;
+
+    }
 }
