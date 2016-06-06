@@ -139,3 +139,19 @@
         }
     }
 }
+
+@media screen and (max-width:768px) {
+    #detailed-product {
+        margin-left: 0px;
+        #product-information, #product-description {
+            margin-top: 30pt;
+        }
+        #product-information, #product-pictures {
+            width: 100%
+        }
+    }
+}
+
+.item {
+    display: block;
+}
