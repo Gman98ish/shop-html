@@ -156,3 +156,18 @@
     }
 }
 
+@media screen and (max-width:850px) {
+    .chevron {
+        display: none !important;
+    }
+
+    .product-picture {
+        display: block !important;
+        margin: 5pt auto !important;
+    }
+
+    #product-availability {
+        float: none !important;
+    }
+
+}
