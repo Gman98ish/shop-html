@@ -27,6 +27,7 @@ header * {
 
 .other-header {
     height: 50vh;
+    max-height: 600px;
     background-image: url("../images/alternate.png");
     background-size: cover;
     background-position: 50% 50%;
@@ -34,9 +35,13 @@ header * {
 
 header {
     height: 100vh;
+    max-height: 1200px;
     background-image: url("../images/surfer.png");
     background-size: cover;
     background-position: 50% 50%;
+}
+.content {
+    max-width: 1200px;
     padding-top: 20px;
     margin-bottom: 15pt !important;
 
