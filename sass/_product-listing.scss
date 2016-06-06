@@ -1,0 +1,68 @@
+#breadcrumbs {
+    margin-left: 20pt;
+    color: #989898;
+    .breadcrumb {
+        font-family: Roboto;
+        color: #989898;
+    }
+
+    .last {
+        background-color: yellow;
+    }
+}
+
+#options {
+    width: 100%;
+    margin-left: 20pt;
+    margin-top: 20pt;
+    margin-bottom: 20pt;
+
+    label {
+        font-family: Roboto;
+        font-weight: 900;
+        color: #333333;
+    }
+
+    .option {
+        width: 25%;
+        min-width: 170pt;
+        display: inline-block;
+        margin: auto;
+        margin-top: 25pt;
+        float: left;
+    }
+
+    select {
+        width: 40%;
+        background-color: white;
+        border: 1px solid gray;
+        margin-left: 5pt;
+    }
+
+    .view-option {
+        width: 12pt;
+        height: 12pt;
+    }
+
+    #show {
+        width: 30%;
+    }
+}
+
+.page-number {
+    padding: 3pt 5pt;
+    font-family: Roboto;
+    text-align: center;
+    font-weight: 900;
+    color: #333333;
+    @include box-sizing(border-box);
+}
+
+.active-page {
+    color: white;
+    background-color: #26d2fc;
+}
+
+.listing-items {
+    margin-top: 10pt !important;
+}

@@ -1,0 +1,280 @@
+<html>
+<head>
+    <title>Shop</title>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body class="gray">
+    <header class="other-header">
+        <div class="content">
+            <div id="head-left">
+                <img src="images/surfdome.png" alt="Surfdome Logo" id="logo">
+                <div id="cart">
+                    <span class="top-button">LOG IN</span><span class="top-button">WISHLIST</span>
+                    <div id="items">
+                        <img src="images/cart.png" alt="Shopping Cart">
+                        <span id="price">&pound;1,459.50</span>
+                        <span id="quantity">2 items</span>
+                        <span id="x">X</span>
+                        <span id="edit">EDIT</span>
+                    </div>
+                    <span class="bottom-button">LOG IN</span><span class="bottom-button" id="second">WISHLIST</span>
+                    <div id="search-box">
+                        <input type="text" placeholder="SEARCH"><!--
+                        --!><div><img src="images/search.svg" alt="Search"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="head-right">
+                <div id="social-icons">
+                    <img class="icon" src="images/social-fb-small.png" alt="Facebook">
+                    <img class="icon" src="images/social-insta-small.png" alt="Instagram">
+                    <img class="icon" src="images/social-pt-small.png" alt="Pintrest">
+                    <img class="icon" src="images/social-yt-small.png" alt="Youtube">
+                    <img class="icon" src="images/social-twitter-small.png" alt="Twitter">
+                </div>
+            </div>
+
+            <div id="head-mobile">
+                <div class="container">
+                    <div id="ham-logo">
+                        <img id="hamburger" src="images/hamburger.png" alt="hamburger">
+                        <img id="mobile-logo" src="images/mobile-logo.png" alt="logo">
+                    </div>
+                    <div id="buttons">
+                        <div id="search"><img src="images/search.svg" alt="Search"></div>
+                        <div id="cart"><img src="images/cart.png" alt="Cart"></div>
+                    </div>
+                    <div id="blue-box" class="alternate-box">
+                        <ul>
+                            <li><span class="text">ABOUT</span> <span class="plus">+</span></li>
+                            <li><span class="text">APPAREL</span> <span class="plus">+</span></li>
+                            <li><span class="text">SURF APPAREL</span> <span class="plus">+</span></li>
+                            <li><span class="text">WINDSURF</span> <span class="plus">+</span></li>
+                            <li><span class="text">KITESURF</span> <span class="plus">+</span></li>
+                            <li><span class="text">ACCESSORIES</span> <span class="plus">+</span></li>
+                            <li><span class="text">SALE</span> <span class="plus">+</span></li>
+                            <li><span class="text">BRANDS</span> <span class="plus">+</span></li>
+                            <li><span class="text">BLOG</span> <span class="plus">+</span></li>
+                            <li><span class="text">GADGETS</span> <span class="plus">+</span></li>
+                            <li><span class="text">CONTACT</span> <span class="plus">+</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="content-main">
+        <div class="menu">
+            <ul>
+                <li class="head">MENU</li>
+                <li>ABOUT</li>
+                <li>APPAREL</li>
+                <li>SURF APPAREL</li>
+                <li>WINDSURF</li>
+                <li>KITESURF</li>
+                <li>ACCESSORIES</li>
+                <li>SALE</li>
+                <li>BRANDS</li>
+                <li>BLOG</li>
+                <li>GADGETS</li>
+                <li>CONTACT</li>
+            </ul>
+            <ul class="light">
+                <li class="head">CATEGORY OPTIONS</li>
+                <li>MEN</li>
+                <li>WOMEN</li>
+                <li>KIDS</li>
+                <li>WETSUITS</li>
+                <li>OUTWEAR</li>
+            </ul>
+            <ul class="light">
+                <li class="head">BRAND OPTIONS</li>
+                <li>BILLABONG</li>
+                <li>ELEMENT</li>
+                <li>O'NIEL</li>
+                <li>OAKLEY</li>
+                <li>REEF</li>
+                <li>QUICKSILVER</li>
+                <li>RIPCURL</li>
+                <li>JACKSS</li>
+            </ul>
+            <img src="images/surfer-girl.png" id="surfer" alt="Surfer Girl">
+        </div>
+        <div class="items listing-items">
+            <div id="breadcrumbs">
+                <span class="breadcrumb">Home</span> >>
+                <span class="breadcrumb">Apparrel</span> >>
+                <span class="breadcrumb last">Women</span>
+            </div>
+            <div id="options">
+                <form action="" style="text-align: left">
+                    <div class="option">
+                        <label for="sort">SORT BY</label>
+                        <select id="sort" name="sort">
+                            <option value="A">A</option>
+                            <option value="B">B</option>
+                            <option value="C">C</option>
+                        </select>
+                        <span>&uarr;<!-- A pirate --></span>
+                    </div><!--
+                    --><div class="option">
+                        <label for="display h-space">VIEW AS:</label>
+                        <img src="images/blue-tiles.png" alt="tiles" class="view-option h-space">
+                        <img src="images/gray-tiles.png" alt="tiles" class="view-option h-space">
+                    </div><!--
+                    --><div class="option">
+                    <label for="show">SHOW</label>
+                    <select id="show" name="show" class="h-space">
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                    </select>
+                    <label for="">PER PAGE</label>
+                    </div><!--
+                    --><div class="option">
+                        <label class="h-space" style="margin-left: 0pt">PAGE: </label>
+                        <span class="page-number active-page h-space">1</span>
+                        <span class="page-number">2</span>
+                    </div>
+                </form>
+            </div>
+            <div class="spacer" style="clear: both"></div>
+            <div class="item mobile">
+                <img class="item-image" src="images/cat-1.png" alt="Item">
+                <div class="item-info">
+                    <span class="item-name">WETSUITS</span>
+                    <span class="item-price"> </span>
+                </div>
+            </div>
+            <div class="item mobile">
+                <img class="item-image" src="images/cat-2.png" alt="Item">
+                <div class="item-info">
+                    <span class="item-name">SURFBOARD BAGS</span>
+                    <span class="item-price"> </span>
+                </div>
+            </div>
+            <div class="item">
+                <img class="item-image" src="images/cat-3.png" alt="Item">
+                <div class="item-info">
+                    <span class="item-name">RASH WEAR</span>
+                    <span class="item-price"> </span>
+                </div>
+            </div>
+            <div class="item">
+                <img class="item-image" src="images/cat-4.png" alt="Item">
+                <div class="item-info">
+                    <span class="item-name">ACCESSORIES</span>
+                    <span class="item-price"> </span>
+                </div>
+            </div>
+            <div class="item">
+                <img class="item-image" src="images/cat-5.png" alt="Item">
+                <div class="item-info">
+                    <span class="item-name">SHOES</span>
+                    <span class="item-price"> </span>
+                </div>
+            </div>
+            <div class="item">
+                <img class="item-image" src="images/cat-6.png" alt="Item">
+                <div class="item-info">
+                    <span class="item-name">SURFBOARD LEASHES</span>
+                    <span class="item-price"> </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="clear: both;"></div>
+    <div class="content-main">
+        <div id="instagram-feed">
+            <div id="social-media">
+                <span class="media-box" id="fb"> <img src="images/fb-lg.png" alt="Facebook"> </span><!--
+                --><span class="media-box" id="tw"> <img src="images/tw-lg.png" alt="Twitter"> </span><!--
+                --><span class="media-box" id="pin"> <img src="images/pin-lg.png" alt="Pinterest"> </span>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-item">
+            <ul class="footer-list">
+                <li class="footer-header">Category</li>
+                <li>Home</li>
+                <li>About Us</li>
+                <li>eShop</li>
+                <li>Features</li>
+                <li>New Collections</li>
+                <li>Blog</li>
+                <li>Contact</li>
+            </ul>
+        </div><!--
+        --><div class="footer-item">
+            <ul>
+                <li class="footer-header">Category</li>
+                <li>Your Account</li>
+                <li>Personal Information</li>
+                <li>Addresses</li>
+                <li>Discount</li>
+                <li>Orders History</li>
+                <li>Addresses</li>
+                <li>Search Terms</li>
+            </ul>
+        </div><!--
+        --><div class="footer-item">
+            <ul>
+                <li class="footer-header">Category</li>
+                <li>Site Map</li>
+                <li>Search Terms</li>
+                <li>Advanced Search</li>
+                <li>Mobile</li>
+                <li>Cantact Us</li>
+                <li>Addresses</li>
+            </ul>
+        </div><!--
+        --><div class="footer-item" id="news-item">
+            <ul>
+                <li class="footer-header">Category</li>
+            </ul>
+            <p>Join thousands of other people to subscribe to our news</p>
+            <form action="">
+                <input type="text" id="email" placeholder=" INSERT EMAIL "><!--
+                --!><div class="search-icon"> SUBMIT </div>
+            </form>
+            <div id="cards">
+                <img src="images/card-2.png" alt="Card">
+                <img src="images/card-3.png" alt="Card">
+                <img src="images/card-4.png" alt="Card">
+                <img src="images/card-5.png" alt="Card">
+                <img src="images/card-6.png" alt="Card">
+            </div>
+        </div><!--
+        --><div class="footer-item" id="last-item">
+            <ul>
+                <li class="footer-header">Category</li>
+                <li>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                <br><br><br>
+                <p> <span class="heading"> Phone </span> 0161 000 00000 </p>
+                <p> <span class="heading"> E-Mail </span> <span class="yellow-text">info@surfdome.com</span> </p>
+                </li>
+            </ul>
+        </div>
+        <br class="separate">
+        <div id="bottom">
+            <span id="bottom-left">
+                <p> &copy; 2016 SURFDOME. All rights reserved - Designed by UKFast </p>
+            </span>
+            <span id="bottom-right">
+                <img class="icon" src="images/social-fb-small.png" alt="Facebook">
+                <img class="icon" src="images/social-insta-small.png" alt="Instagram">
+                <img class="icon" src="images/social-pt-small.png" alt="Pintrest">
+                <img class="icon" src="images/social-yt-small.png" alt="Youtube">
+                <img class="icon" src="images/social-twitter-small.png" alt="Twitter">
+            </span>
+        </div>
+    </footer>
+</body>
+</html>

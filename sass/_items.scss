@@ -3,6 +3,7 @@
     vertical-align: top;
     width: calc(100% - 170pt);
     float: right;
+    text-align: center;
 
     h2 {
         font-family: Roboto;
@@ -102,6 +103,7 @@
         margin-top: 50pt !important;
         text-align: center !important;
         float: none;
+        width: 100%;
     }
 
     .item {

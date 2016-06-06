@@ -24,6 +24,11 @@
     width: 1pt;
 }
 
+.h-space {
+    margin-left: 7pt;
+    margin-right: 7pt;
+}
+
 @import "colours";
 @import "mixins";
 @import "navbar";
@@ -32,3 +37,4 @@
 @import "social";
 @import "footer";
 @import "categories";
+@import "product-listing";
