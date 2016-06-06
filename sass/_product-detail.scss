@@ -117,4 +117,25 @@
             margin-left: 40pt;
         }
     }
+
+    #product-description {
+
+        #description-title {
+            background-color: #26d2fc;
+            padding: 10pt 3pt;
+            width: 150pt;
+            margin-left: 20pt;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        #description-container {
+            width: 95%;
+            border: 1px solid #d6d4d4;
+            color: #808080;
+            text-align: left;
+            font-family: roboto;
+            padding: 10pt;
+        }
+    }
 }
