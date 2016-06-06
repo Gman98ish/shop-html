@@ -29,6 +29,14 @@
     margin-right: 7pt;
 }
 
+.clearfix {
+    clear: both;
+}
+
+.strong {
+    font-weight: 900;
+}
+
 @import "colours";
 @import "mixins";
 @import "navbar";

@@ -31,9 +31,90 @@
 
     }
 
+    #product-information * {
+        text-align: left;
+        font-family: Roboto;
+    }
+
     #product-information {
         float: right;
         width: 55%;
 
+        #title {
+            font-family: Roboto;
+            text-decoration: italic;
+            color: #353535;
+        }
+
+
+        #product-numbers {
+            margin-top: 15pt;
+
+            #product-price {
+                font-size: 20pt;
+                vertical-align: middle;
+                float: left;
+            }
+
+            #product-availability {
+                display: inline-block;
+                vertical-align: middle;
+                float: right;
+                margin-right: 20%;
+            }
+        }
+
+        .over-border {
+            width: 80%;
+            margin: auto;
+            border-top: 1px solid #EAEAEA;
+        }
+
+        #product-overview {
+            padding: 20pt;
+            padding-left: 10pt;
+
+            #overview-title {
+                font-size: 12pt;
+                margin-left: 0pt;
+                margin-top: 0pt;
+            }
+        }
+
+        .number-options {
+            padding: 15pt 0pt;
+            .number-option {
+                background-color: white;
+                padding: 5pt;
+                vertical-align: middle;
+                text-align: center;
+            }
+            .red {
+                color: red;
+            }
+        }
+
+        #quantity {
+            width: 40pt;
+            padding: 3pt;
+            border: none;
+            background-color: white;
+            text-align: inherit !important;
+        }
+
+        .plus {
+            color: #333333;
+        }
+
+        #add-to-cart {
+            border: none;
+            background-color: #fb4d01;
+            padding: 5pt;
+            text-align: center;
+            vertical-align: middle;
+            color: white;
+            display: inline-block;
+            margin-left: 40pt;
+        }
     }
 }
