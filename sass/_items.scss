@@ -3,7 +3,7 @@
     vertical-align: top;
     width: calc(100% - 170pt);
     float: right;
-    text-align: center;
+    margin: auto;
 
     h2 {
         font-family: Roboto;
@@ -101,7 +101,6 @@
 @media screen and (max-width:768px) {
     .items {
         margin-top: 50pt !important;
-        text-align: center !important;
         float: none;
         width: 100%;
     }
