@@ -47,6 +47,46 @@
     }
 }
 
+#tags-widget {
+    width: 170pt;
+    display: inline-block;
+    float: left;
+    background-color: white;
+    padding: 35px 10px;
+    margin-top: 20px;
+    @include box-sizing(border-box);
+
+    h1 {
+        font-family: Roboto;
+        font-weight: 900;
+        color: black;
+        font-size: 24px;
+        font-style: italic;
+    }
+
+    .new-line {
+        margin: 10px 0px;
+    }
+
+    .tag {
+        font-family: Roboto;
+        font-size: 15px;
+        background-color: #f8f8f8;
+        padding: 5px 14px;
+        text-align: center;
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+    
+    .main-tag {
+        background-color: #faef03;
+    }
+
+    .big-tag {
+        font-size: 20px;
+    }
+}
+
 @media screen and (max-width:768px) {
     .menu {
         display: none;
