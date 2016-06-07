@@ -6,6 +6,19 @@ header * {
     display: none;
 }
 
+#yellow-button {
+    border: none;
+    background-color: #fff51f;
+    padding: 12px;
+    text-align: center;
+    vertical-align: middle;
+    color: black;
+    display: inline-block;
+    margin-top: 100px;
+    font-weight: 900;
+    font-size: 20px;
+}
+
 .yellow-box {
     background-color: #fff51f;
     width: 100%;
